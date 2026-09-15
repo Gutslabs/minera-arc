@@ -1,0 +1,11 @@
+# secrets and local state — never commit
+.env
+.env.*
+!.env.example
+*.key
+state/
+*.log
+
+node_modules/
+.DS_Store
+.claude/

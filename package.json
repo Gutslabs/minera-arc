@@ -1,0 +1,14 @@
+{
+  "name": "minera-arc",
+  "version": "0.1.0",
+  "description": "Launch a token on Minara.fun (Arc mainnet) straight from your wallet — image, description, ticker, opening buy, creator fee. Unofficial.",
+  "type": "module",
+  "author": "Gutslabs",
+  "license": "MIT",
+  "repository": "github:Gutslabs/minera-arc",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test \"test/**/*.test.mjs\""
+  }
+}
